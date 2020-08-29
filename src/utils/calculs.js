@@ -1,4 +1,4 @@
-import { Tranches } from "../data/tranches"
+import { Tranches } from "../data/Tranches"
 
 /**
  * Parts count
