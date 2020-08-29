@@ -1,0 +1,32 @@
+@import 'variables.scss';
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    margin-top: 0;
+    padding-top: 0;
+    min-height: $header-min-height;
+    background-color: #059;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    // display: flex;
+    // justify-content: center;
+}
+
+.body {
+    margin-top: $body-margin-top;
+}
+
+.col-md-6 {
+    justify-content: center;
+}
+
+.tranches {
+    height: calc(100vh - #{$header-min-height} - #{$body-margin-top} * 2);
+}
